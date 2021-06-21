@@ -1,7 +1,8 @@
 nav{
     display: flex;
     justify-content: flex-end;
-    background-color: green;
+    background-color:#71A430;
+    color: white;
 }
 ul{
     display: flex;
