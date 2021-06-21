@@ -18,11 +18,12 @@ nav>ul>li{
 }
 
 #image{
-    background-image: url("./assets/backimage.png");
+    background-image: url("./assets/landb2.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 400px;
-    align-items: center;
+    color: white;
 
 }
 h1{
