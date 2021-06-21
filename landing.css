@@ -20,4 +20,11 @@ nav>ul>li{
 #image{
     background-image: url("./assets/landb2.jpg");
     color: white;
+    height: 400px;
+    background-repeat: no-repeat;
+    align-items: center;
+    
+}
+h1{
+    align-content: center;
 }
