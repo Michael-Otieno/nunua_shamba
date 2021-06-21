@@ -38,4 +38,10 @@ nav>ul>li{
     text-align:left;
     font-size: larger;
 }
+#img2{
+    display: flex;
+    float: left;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
