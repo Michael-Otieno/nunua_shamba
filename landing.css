@@ -25,6 +25,7 @@ nav>ul>li{
     height: 400px;
     color: white;
     font-size: larger;
+    
 
 }
 .heading{
@@ -33,3 +34,8 @@ nav>ul>li{
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
 }
+.contents{
+    text-align:left;
+    font-size: larger;
+}
+
