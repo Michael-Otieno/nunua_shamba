@@ -16,3 +16,8 @@ nav>ul>li{
 #nav p{
     padding: 18px;
 }
+
+#image{
+    background-image: url("./assets/landb2.jpg");
+    color: white;
+}
