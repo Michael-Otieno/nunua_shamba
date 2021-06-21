@@ -42,6 +42,7 @@ nav>ul>li{
     display: flex;
     float: left;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
+    font-size: larger;
 }
 
