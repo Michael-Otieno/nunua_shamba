@@ -181,7 +181,6 @@ input[type="Pending approval"] {
 }
 #img1 {
     width: 500px;
-    
 }
 #img2 {
     width: 500px;
@@ -223,55 +222,81 @@ input[type="Pending approval"] {
     color: green;
     font-size: larger;
     margin-right: 400PX;
+    font-family: sans-serif;
 }
 .image3content {
     float: right;
     color: green;
     font-size: larger; 
+    font-family: sans-serif;
     margin-right: 200px;
+    
 }
+    
+
 .image4content {
     float: right;
     color: green;
     font-size: larger; 
+    font-family: sans-serif;
     margin-right: 400px;
+  
 }
+
 .image5content {
     float: right;
     color: green; 
-    font-size: larger; 
+    font-size: larger;
+    font-family: sans-serif; 
     margin-right: 200px;
+    
 }
+
 .image6content {
     float: right;
     color: green;
     font-size: larger; 
+    font-family: sans-serif;
     margin-right: 400px;
+    
 }
+
 .image7content {
     float: right;
     color: green;
     font-size: larger; 
+    font-family: sans-serif;
     margin-right: 200px;
+    
 }
+
 .image8content {
     float: right;
     color: green;
     font-size: larger; 
+    font-family: sans-serif;
     margin-right: 400px;
+    
 }
+
 .image9content {
     float: right;
     color: green;
-    font-size: larger; 
+    font-size: larger;
+    font-family: sans-serif; 
     margin-right: 200px;
+    
 }
-.image1ocontent {
+
+.image10content {
     float: right;
     color: green;
     font-size: larger; 
+    font-family: sans-serif;
     margin-right: 400px ;
+  
 }
+
 .combined12 {
     display: flex; 
 }
