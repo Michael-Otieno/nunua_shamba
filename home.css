@@ -1,5 +1,70 @@
-body{margin-left: 250px;
-  margin-right: 250px;
-  background-image: url(./assets/tree.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;}
+body{
+     background-image: url("./assets/beautiful-grass-540x540.jpg.webp");
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: fixed;
+}
+.main{ 
+  display: flex;
+  padding: 120px;
+  justify-content: center;
+}
+.container{
+          background-color:green;
+          width: 400px;
+          opacity: 0.65;
+          border-radius:15px 15px 15px 15px;
+          max-width: 100%;
+          height: 500px;
+
+}
+.header{margin-left: 50px;
+        font-size: medium;
+        margin-top: 9px;
+         margin-left: 100px;
+
+        
+}
+button{ margin-left: 15px;
+        margin-right: 15px;
+        color:black;
+        background-color:white;
+        padding: 20px;
+}
+.button{padding-top: 30px;
+        font-size:medium;
+
+}
+.button_one{
+        color: white;
+}
+.main{ 
+        display: flex;
+        justify-content: center;
+}
+.form-control label{ color: white;
+                     display: inline-block;
+                     margin-bottom: 6px;
+}
+.form-control input{ margin-left: 50px;
+                     border-radius: 10px;
+                     height: 24px;
+                     width: 250px;
+                     margin-bottom: 10px;
+                     align-items: center;
+                     color: white;
+                     background-color: white;
+                     display: block;
+}
+.form-control small{ 
+                    color: red;
+                    position: absolute;
+                    visibility: hidden;
+}
+.button{
+        display: flex;
+        justify-content: space-between;
+}
+.container p{
+              color: white;
+}
