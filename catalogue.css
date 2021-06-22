@@ -1,5 +1,12 @@
 /* font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'PT Sans Narrow', sans-serif; */
+/* .all {
+    display: flex;
+} */
+#Images {
+    /* display: flex; */
+    align-content: space-between;
+}
 .nav {
     background-color: green;
     color: white;
@@ -36,11 +43,35 @@ font-family: 'PT Sans Narrow', sans-serif; */
     
     
 }
+.pmail {
+    padding: 20px;
+}
+.pname {
+    padding: 20px;
+}
+.pid {
+    padding: 20px;
+}
+.ptitle {
+    padding: 20px;
+}
+.plocation {
+    padding: 20px;
+}
+.psubmit {
+    padding: 20px;
+}
+.ppost {
+    padding: 20px;
+}
+.papprove {
+    padding: 20px;
+}
 #heading {
     color: white;
     text-align: center;
 }
-input[type="Your name"] {
+input[type="text"] {
 
     color: white;
     padding: 20px, 20px;
@@ -167,6 +198,60 @@ input[type="Pending approval"] {
 .image1content {
     float: right;
     color: green;
-    padding-right: 1000px
-    
+    padding-right: 1000px; 
+    font-size: larger; 
+}
+.image2content {
+    float: right;
+    color: green;
+    padding-right: 1000px; 
+    font-size: larger; 
+}
+.image3content {
+    float: right;
+    color: green;
+    padding-right: 1000px; 
+    font-size: larger; 
+}
+.image4content {
+    float: right;
+    color: green;
+    padding-right: 1000px; 
+    font-size: larger; 
+}
+.image5content {
+    float: right;
+    color: green;
+    padding-right: 1000px; 
+    font-size: larger; 
+}
+.image6content {
+    float: right;
+    color: green;
+    padding-right: 1000px; 
+    font-size: larger; 
+}
+.image7content {
+    float: right;
+    color: green;
+    padding-right: 1000px; 
+    font-size: larger; 
+}
+.image8content {
+    float: right;
+    color: green;
+    padding-right: 1000px; 
+    font-size: larger; 
+}
+.image9content {
+    float: right;
+    color: green;
+    padding-right: 1000px; 
+    font-size: larger; 
+}
+.image1ocontent {
+    float: right;
+    color: green;
+    padding-right: 1000px; 
+    font-size: larger; 
 }
