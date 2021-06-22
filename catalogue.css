@@ -5,9 +5,12 @@ font-family: 'PT Sans Narrow', sans-serif; */
     color: white;
     text-align: center;
     margin-bottom: 100px;
+    height: 160px;
 }
 .form {
     display: flex;
+    background-color: green;
+    width: 250px;
     
 }
 #initial {
@@ -17,10 +20,16 @@ font-family: 'PT Sans Narrow', sans-serif; */
     display: flex;
     flex-direction: column;
     float: right;
+    background-color: green;
+    width: 250px;
     
 }
+#heading {
+    color: white;
+    text-align: center;
+}
 input[type=Name] {
-    background-color: green;
+
     color: white;
     padding: 12px, 20px;
     margin: 8px 0;
@@ -30,8 +39,7 @@ input[type=Name] {
     border-radius: 3%;
     font-size: larger;
 }
-input[type="Your email"] {
-    background-color: green;
+input[type="Your email"]{
     color: white;
     padding: 12px, 20px;
     margin: 8px 0;
@@ -40,9 +48,12 @@ input[type="Your email"] {
     border-bottom: 2px solid green;
     border-radius: 3%;
     font-size: larger;
+    text-align: center;
 }
+    
+
 input[type=Location] {
-    background-color: green;
+    
     color: white;
     padding: 12px, 20px;
     margin: 8px 0;
@@ -53,7 +64,6 @@ input[type=Location] {
     font-size: larger;
 }
 input[type="Natinal id"] {
-    background-color: green;
     color: white;
     padding: 12px, 20px;
     margin: 8px 0;
@@ -64,7 +74,7 @@ input[type="Natinal id"] {
     font-size: larger;
 }
 input[type="Title deed"] {
-    background-color: green;
+    
     color: white;
     padding: 12px, 20px;
     margin: 8px 0;
@@ -75,7 +85,7 @@ input[type="Title deed"] {
     font-size: larger;
 }
 input[type="submit"] {
-    background-color: green;
+    
     color: white;
     padding: 12px, 20px;
     margin: 8px 0;
@@ -86,7 +96,7 @@ input[type="submit"] {
     font-size: larger;
 }
 input[type="post lasnd"] {
-    background-color: green;
+    
     color: white;
     padding: 12px, 20px;
     margin: 8px 0;
@@ -97,7 +107,7 @@ input[type="post lasnd"] {
     font-size: x-large;
 }
 input[type="Pending approval"] {
-    background-color: green;
+    
     color: white;
     padding: 12px, 20px;
     margin: 8px 0;
@@ -141,4 +151,16 @@ input[type="Pending approval"] {
 }
 #img10 {
     width: 500px;
+}
+.image1content {
+    float: right;
+}
+.image2content {
+    float: right;
+}
+.image3content {
+    float: right;
+}
+.image4content{
+    float: right;
 }
