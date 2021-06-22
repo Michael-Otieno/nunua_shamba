@@ -3,24 +3,35 @@ font-family: 'PT Sans Narrow', sans-serif; */
 /* .all {
     display: flex;
 } */
-#Images {
-    /* display: flex; */
-    align-content: space-between;
+/*  #Images {
+     display: flex; 
+    align-content: space-between; 
+} */
+body {
+    margin: auto;
+}
+.s1 {
+    
+
 }
 .nav {
     background-color: green;
     color: white;
     text-align: center;
     margin-bottom: 100px;
-    height: 160px;
-    padding-bottom: 20px;
-    padding-top: 50px;
+    height: 90px;
+    /* padding-bottom: 20px; */
+    padding-top: 0px;
     font-size: xx-large;
+}
+.mainform{
+    width: 70%;
+    margin-left: 20%;
 }
 .form {
     display: flex;
     background-color: green;
-    width: 840px ;
+    width: 890px ;
     align-content: space-between;
     color: white;
     font-size: x-large;
@@ -45,6 +56,8 @@ font-family: 'PT Sans Narrow', sans-serif; */
 }
 .pmail {
     padding: 20px;
+    
+    
 }
 .pname {
     padding: 20px;
@@ -67,9 +80,11 @@ font-family: 'PT Sans Narrow', sans-serif; */
 .papprove {
     padding: 20px;
 }
-#heading {
+.heading {
     color: white;
     text-align: center;
+    
+    
 }
 input[type="text"] {
 
@@ -166,6 +181,7 @@ input[type="Pending approval"] {
 }
 #img1 {
     width: 500px;
+    
 }
 #img2 {
     width: 500px;
@@ -197,61 +213,68 @@ input[type="Pending approval"] {
 }
 .image1content {
     float: right;
-    color: green;
-    padding-right: 1000px; 
+    color: green; 
     font-size: larger; 
+    font-family: sans-serif;
+    margin-right: 200px;
 }
 .image2content {
     float: right;
     color: green;
-    padding-right: 1000px; 
-    font-size: larger; 
+    font-size: larger;
+    margin-right: 400PX;
 }
 .image3content {
     float: right;
     color: green;
-    padding-right: 1000px; 
     font-size: larger; 
+    margin-right: 200px;
 }
 .image4content {
     float: right;
     color: green;
-    padding-right: 1000px; 
     font-size: larger; 
+    margin-right: 400px;
 }
 .image5content {
     float: right;
-    color: green;
-    padding-right: 1000px; 
+    color: green; 
     font-size: larger; 
+    margin-right: 200px;
 }
 .image6content {
     float: right;
     color: green;
-    padding-right: 1000px; 
     font-size: larger; 
+    margin-right: 400px;
 }
 .image7content {
     float: right;
     color: green;
-    padding-right: 1000px; 
     font-size: larger; 
+    margin-right: 200px;
 }
 .image8content {
     float: right;
     color: green;
-    padding-right: 1000px; 
     font-size: larger; 
+    margin-right: 400px;
 }
 .image9content {
     float: right;
     color: green;
-    padding-right: 1000px; 
     font-size: larger; 
+    margin-right: 200px;
 }
 .image1ocontent {
     float: right;
     color: green;
-    padding-right: 1000px; 
     font-size: larger; 
+    margin-right: 400px ;
 }
+.combined12 {
+    display: flex; 
+}
+/* .combined12 #image1{
+    background-color: black;
+} */    
