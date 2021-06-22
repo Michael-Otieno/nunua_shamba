@@ -3,9 +3,11 @@ font-family: 'PT Sans Narrow', sans-serif; */
 .nav {
     background-color: green;
     color: white;
+    text-align: center;
 }
 .form {
     display: flex;
+    
 }
 #initial {
     color: green;
@@ -13,8 +15,93 @@ font-family: 'PT Sans Narrow', sans-serif; */
 .form2 {
     display: flex;
     flex-direction: column;
+    
 }
 input[type=Name] {
     background-color: green;
     color: white;
+    padding: 12px, 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius: 3%;
+    font-size: larger;
+}
+input[type="Your email"] {
+    background-color: green;
+    color: white;
+    padding: 12px, 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius: 3%;
+    font-size: larger;
+}
+input[type=Location] {
+    background-color: green;
+    color: white;
+    padding: 12px, 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius: 3%;
+    font-size: larger;
+}
+input[type="Natinal id"] {
+    background-color: green;
+    color: white;
+    padding: 12px, 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius: 3%;
+    font-size: larger;
+}
+input[type="Title deed"] {
+    background-color: green;
+    color: white;
+    padding: 12px, 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius: 3%;
+    font-size: larger;
+}
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    padding: 12px, 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius: 3%;
+    font-size: larger;
+}
+input[type="post lasnd"] {
+    background-color: green;
+    color: white;
+    padding: 12px, 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius: 3%;
+    font-size: larger;
+}
+input[type="Pending approval"] {
+    background-color: green;
+    color: white;
+    padding: 12px, 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius: 3%;
+    font-size: larger;
 }
