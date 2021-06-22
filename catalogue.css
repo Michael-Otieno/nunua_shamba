@@ -6,32 +6,44 @@ font-family: 'PT Sans Narrow', sans-serif; */
     text-align: center;
     margin-bottom: 100px;
     height: 160px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    font-size: xx-large;
 }
 .form {
     display: flex;
     background-color: green;
-    width: 250px;
-    
+    width: 840px ;
+    align-content: space-between;
+    color: white;
+    font-size: x-large;
+}
+#fillform {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
 }
 #initial {
     color: green;
+    font-size: x-large;
 }
 .form2 {
-    display: flex;
+    display: inline-block;
     flex-direction: column;
-    float: right;
     background-color: green;
-    width: 250px;
+    width: 0px;
+    
+    
     
 }
 #heading {
     color: white;
     text-align: center;
 }
-input[type=Name] {
+input[type="Your name"] {
 
     color: white;
-    padding: 12px, 20px;
+    padding: 20px, 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
@@ -52,7 +64,7 @@ input[type="Your email"]{
 }
     
 
-input[type=Location] {
+input[type="Your location"] {
     
     color: white;
     padding: 12px, 20px;
@@ -86,8 +98,8 @@ input[type="Title deed"] {
 }
 input[type="submit"] {
     
-    color: white;
-    padding: 12px, 20px;
+    color: black;
+    padding: 20px, 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
@@ -97,7 +109,7 @@ input[type="submit"] {
 }
 input[type="post lasnd"] {
     
-    color: white;
+    color: black;
     padding: 12px, 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -108,7 +120,7 @@ input[type="post lasnd"] {
 }
 input[type="Pending approval"] {
     
-    color: white;
+    color: black;
     padding: 12px, 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -154,13 +166,7 @@ input[type="Pending approval"] {
 }
 .image1content {
     float: right;
-}
-.image2content {
-    float: right;
-}
-.image3content {
-    float: right;
-}
-.image4content{
-    float: right;
+    color: green;
+    padding-right: 1000px
+    
 }
