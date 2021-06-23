@@ -7,6 +7,7 @@ function create(){
 
   if(name.value==''){
       alert('Name cannot be blank')
+      name.focus()
   }
   if(email.value== ''){
     //show error
@@ -27,7 +28,7 @@ function create(){
     phone.focus();
     return false;
   }
-  if(password.value.lenght < 6){
+  if(password.value.length <= 6){
     //show error
     alert('password cannot be less than 6 characters');
     password.focus();
