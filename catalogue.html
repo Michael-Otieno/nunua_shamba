@@ -22,21 +22,21 @@
             <h2><strong>Post Land Details</strong></h2>
         </div>
         <div class="form">
-           <form method="POST"> 
+           <form > 
                <div id="fillform"><h4><strong>Fill form</strong></h4></div>
                <label for="email">  Email</label>
                <input class="pmail" required id="pmail" ctype="email" placeholder="Your email..." size="100">
                <label for="Name"> Name</label>
                <input class="pname" required type="name" id="pname" placeholder="Your name..." size="100">
-               <label for="National Id">ID</label>
-               <input class="pid"  type="national id" placeholder="National id..." size="100" id="pid">
+               <label for="National Id" >ID</label>
+               <input class="pid"   type="number" placeholder="National id..." size="500" id="pid" style="display: block;">
                <label for="title deed">Title</label>
-               <input class="ptitle" id="tdeed" type="title deeed" placeholder="Title deed..." size="100">
+               <input class="ptitle" id="pdeed" type="title deeed" placeholder="Title deed..." size="100">
                <label  for="location">Location</label>
                <input class="plocation" id="location"  type="location" placeholder=" Your location..." size="100">
                <div id="submit"><input class="psubmit" onclick="return validate()" type="submit" size="60"></div>
         <div class="form2">
-                <div id="postland"><input class="ppost" id="postland" value="Post Land" type="submit"></div>
+                <!-- <div id="postland"><input class="ppost" id="postland" value="Post Land" type="submit"></div> -->
                 <div id="approval"><input class="papprove" id="approval" value="Pending Approval" type="submit"></div>
             </form>
         </div>
@@ -51,9 +51,9 @@
         <div id="image1">
             <img id="img1" src="./Assets1/image1.jpeg" alt="Plot in Matuu">
             <div class="image1content">
-                <h4>Land Details</h4>
-                <div class="hidden1">
-                <p>plot-size......1/8 acres</p>
+               <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dealkenya.com%2Fjobs%2Freal-estate_1%2F20-000-acres-land-for-sale-or-lease-at-kilgoris_i6544&psig=AOvVaw0f9i0P5QkkeUL7SzVlkGa3&ust=1624526548738000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCLDt3pO3rfECFQAAAAAdAAAAABAJ"><h4>Land Details</h4></a> 
+                <div class="hidden1" >
+                <p id="hidden1">plot-size......1/8 acres</p>
                 <p>Owner......Mwangi  Wa  Njoroge</p>
                 <p>Location......Matuu</p>
                 <p>Title Deed......PL12396F</p>

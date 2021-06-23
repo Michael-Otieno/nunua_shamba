@@ -299,14 +299,13 @@ input[type="Pending approval"] {
 
 .combined12 {
     display: flex; 
-    
 }
 /* .combined12 #image1{
     background-color: black;
 } */ 
-.hidden1 {
-    display: none;
-}
+/* .hidden1 {
+    display: none; */
+/* }
 .hidden2 {
     display: none;
 }
@@ -333,4 +332,13 @@ input[type="Pending approval"] {
 }
 .hidden10 {
     display: none;
+} */
+
+
+#img1{
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 30px;
+}
+body {
+    background-color:greenyellow;
 }

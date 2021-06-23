@@ -4,7 +4,7 @@ function validate() {
     var mail= document.getElementById('pmail');
     var uName= document.getElementById('pname');
     var idNo = document.getElementById('pid');
-    var titledeed = document.getElementById('tdeed');
+    var titledeed = document.getElementById('pdeed');
     var location= document.getElementById('location');
 
    if(mail.value.trim() == '' ) {
@@ -17,23 +17,31 @@ function validate() {
       uName.focus() ;
       return false;
    }
-   if( idNo.value.trim() == '' || ( document.myForm.ID.value ) ||
-      document.myForm.ID.value.length (x) || x < 1 || x > 10 ) {
+   if( idNo.value.trim() == '' ) {
       
       alert( "Please provide  National id!" );
       idNo.focus() ;
       return false;
    }
-   
-   if( titledeed.valu.trim() == '' ) {
-    alert( "Please provide Title deed!" );
-    titledeed.focus();
+   if(titledeed.value.trim() == '' ) {
+    alert( "Please provide your Title deed!" );
+    titledeed.focus() ;
     return false;
- }
- if( location.value.trim() == '' ) {
+   } else if (titledeed.value.trim() != '^(?=.*[a-zA-Z])(?=.*[0-9])[a-zA-Z0-9]+$') {
+      alert("please use the correct format");
+      titledeed.focus() ;
+   }
+   
+ if(location.value.trim() == '' ) {
     alert( "Please provide Your location!" );
     location.focus();
     return false;
- }
-   return( true );
+   }
+   
+
+   alert('Thank you'+uName.value)
+   return true;
+   window.location.href="catalogue.html"
 }
+
+
