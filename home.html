@@ -16,24 +16,30 @@
            <P>Enter your personal details and start your journey with @NUNUA SHAMBA</P>
          </div>
          <!---Form for the sign-up-->
-        <form action= "#form">
-          <div class="form-control" success>
+         <!-- name -->
+        <form class="form">
+          <div class="form-control" >
             <input type="text" placeholder="Your Name" id="name" >
+            <small>Error message</small>
             </div>
-         <div class="form-control" error>
+            <!-- name -->
+         <div class="form-control">
             <input type="text" placeholder="ID NO." id="id">
          </div>
         <div class="form-control">
               <input type="email" placeholder="Email" id="email" >
+              <small>Error message</small>
              </div>
         <div class="form-control">
            <input type="text" placeholder="Phone" id="phone">
+           <small>Error message</small>
          </div>
         <div class="form-control">
            <input type="password" placeholder="Password" id="password" >
+           <small>Error message</small>
         </div>
          <div class="button">
-        <button type="submit" onclick="create()">Sign up</button>
+        <button>Sign up</button>
         </div>
      </form>
     </div>
@@ -43,16 +49,18 @@
         <h2>Sign In</h2>
       </div>
       <!--sign-in form-->
-      <form action= "#form">
+      <form class="form">
         <div class="form-control">
          <input type="text" placeholder="Email" class="email" >
+         <small>Error message</small>
       </div>
         <div class="form-control">
          <input type="password" placeholder="Password" class="password" >
+         <small>Error message</small>
         </div>
        <div class="button">
-         <button type ="submit" onclick="create()">Sign In</button><button>Forgot Password?</button></div>
-       </div>
+         <button>Sign In</button><button>Forgot Password?</button></div>
+        </div>
       </form>
   </div>
 </div>
