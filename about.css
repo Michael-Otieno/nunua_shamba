@@ -105,3 +105,10 @@ tr td{
 .pp1 {
     padding: 20px;
 }
+
+button{
+    width: 50px;
+    height: 30px;
+    color: blue;
+    display: reverse;
+}
