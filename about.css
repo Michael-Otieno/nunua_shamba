@@ -1,3 +1,18 @@
+.co1{
+    flex: 20%;
+    max-width: 20%;
+    box-sizing: content-box;
+    padding: 20px;
+}
+h1{
+    font-size: ;
+    color: green;
+}
+
+.container{
+    width: px;
+    margin: 10px;
+}
 .contact-box{
     background: burlywood;
     display: flex;
