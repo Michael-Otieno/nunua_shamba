@@ -7,7 +7,7 @@ function validate() {
     var titledeed = document.getElementById('pdeed');
     var location= document.getElementById('location');
 
-   if(mail.value.trim() == '' ) {
+   if(mail.value.trim() == '') {
       alert( "Please provide your Email!" );
       mail.focus() ;
       return false;
@@ -40,5 +40,6 @@ function validate() {
    return true;
    window.location.href="catalogue.html"
 }
+
 
 

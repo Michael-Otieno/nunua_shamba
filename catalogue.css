@@ -237,21 +237,21 @@ input[type="Pending approval"] {
 }
 .image1content {
     float: right;
-    color: white; 
+    color: black; 
     font-size: x-large; 
     font-family: sans-serif;
     margin-right: 200px;
 }
 .image2content {
     float: right;
-    color: white;
+    color: black;
     font-size: x-large;
     margin-right: 400PX;
     font-family: sans-serif;
 }
 .image3content {
     float: right;
-    color: white;
+    color: black;
     font-size: x-large; 
     font-family: sans-serif;
     margin-right: 200px;
@@ -261,7 +261,7 @@ input[type="Pending approval"] {
 
 .image4content {
     float: right;
-    color: white;
+    color: black;
     font-size: x-large; 
     font-family: sans-serif;
     margin-right: 400px;
@@ -270,7 +270,7 @@ input[type="Pending approval"] {
 
 .image5content {
     float: right;
-    color: white; 
+    color: black; 
     font-size: x-large;
     font-family: sans-serif; 
     margin-right: 200px;
@@ -279,7 +279,7 @@ input[type="Pending approval"] {
 
 .image6content {
     float: right;
-    color: white;
+    color: black;
     font-size: x-large; 
     font-family: sans-serif;
     margin-right: 400px;
@@ -288,7 +288,7 @@ input[type="Pending approval"] {
 
 .image7content {
     float: right;
-    color: white;
+    color: black;
     font-size: x-large; 
     font-family: sans-serif;
     margin-right: 200px;
@@ -297,7 +297,7 @@ input[type="Pending approval"] {
 
 .image8content {
     float: right;
-    color: white;
+    color: black;
     font-size: x-large; 
     font-family: sans-serif;
     margin-right: 400px;
@@ -306,7 +306,7 @@ input[type="Pending approval"] {
 
 .image9content {
     float: right;
-    color: white;
+    color: black;
     font-size: x-large;
     font-family: sans-serif; 
     margin-right: 200px;
@@ -315,7 +315,7 @@ input[type="Pending approval"] {
 
 .image10content {
     float: right;
-    color: white;
+    color: black;
     font-size: x-large; 
     font-family: sans-serif;
     margin-right: 400px ;
@@ -325,44 +325,7 @@ input[type="Pending approval"] {
 .combined12 {
     display: flex; 
 }
-/* .combined12 #image1{
-    background-color: black;
-} */ 
-/* .hidden1 {
-    display: none; */
-/* }
-.hidden2 {
-    display: none;
-}
-.hidden3 {
-    display: none;
-}
-.hidden4 {
-    display: none;
-}
-.hidden5 {
-    display: none;
-}   
-.hidden6{
-    display: none;
-}
-.hidden7 {
-    display: none;
-}
-.hidden8 {
-    display: none;
-}
-.hidden9 {
-    display: none;
-}
-.hidden10 {
-    display: none;
-} */
 
-
-#img1{
-   
-}
 body {
     background-color:greenyellow;
 }
