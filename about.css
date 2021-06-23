@@ -83,3 +83,13 @@ label{
     margin-top: 2px;
     box-shadow: 0.9px
 }
+.contact-left h3{
+    color: #000;
+}
+tr td:first-child{
+    padding-right: 10px;
+
+}
+tr td{
+    padding-top: 20px;
+}
