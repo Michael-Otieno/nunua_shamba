@@ -27,10 +27,7 @@ function validate() {
     alert( "Please provide your Title deed!" );
     titledeed.focus() ;
     return false;
-   } else if (titledeed.value.trim() != '^(?=.*[a-zA-Z])(?=.*[0-9])[a-zA-Z0-9]+$') {
-      alert("please use the correct format");
-      titledeed.focus() ;
-   }
+    } 
    
  if(location.value.trim() == '' ) {
     alert( "Please provide Your location!" );
@@ -39,7 +36,7 @@ function validate() {
    }
    
 
-   alert('Thank you'+uName.value)
+   alert('Thank you'+ uName.value)
    return true;
    window.location.href="catalogue.html"
 }
