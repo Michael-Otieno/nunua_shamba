@@ -1,3 +1,10 @@
+.about{
+    padding: 5px;
+    color: white;
+    text-align: left;
+    display: flex;
+}
+
 .inner{
     width: px;
     margin: auto;
