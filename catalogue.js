@@ -7,30 +7,32 @@ function validate() {
     var titledeed = document.getElementById('tdeed');
     var location= document.getElementById('location');
 
-   if(mail== '' ) {
-      alert( "Please provide your name!" );
+   if(mail.value.trim() == '' ) {
+      alert( "Please provide your Email!" );
       mail.focus() ;
       return false;
    }
-   if( uName== '' ) {
-      alert( "Please provide your Email!" );
+   if( uName.value.trim() == '' ) {
+      alert( "Please provide your Name!" );
       uName.focus() ;
       return false;
    }
-   if( idNo == '' || ( document.myForm.ID.value ) ||
-      document.myForm.ID.value.length != 5 ) {
+   if( idNo.value.trim() == '' || ( document.myForm.ID.value ) ||
+      document.myForm.ID.value.length (x) || x < 1 || x > 10 ) {
       
-      alert( "Please provide  National id" );
+      alert( "Please provide  National id!" );
       idNo.focus() ;
       return false;
    }
    
-   if( titledeed == '' ) {
-    alert( "Please provide Title deed" );
+   if( titledeed.valu.trim() == '' ) {
+    alert( "Please provide Title deed!" );
+    titledeed.focus();
     return false;
  }
- if( location== '' ) {
-    alert( "Please provide Your location" );
+ if( location.value.trim() == '' ) {
+    alert( "Please provide Your location!" );
+    location.focus();
     return false;
  }
    return( true );
