@@ -183,11 +183,13 @@ input[type="Pending approval"] {
     width: 500px;
     box-shadow: 5px 5px 5px grey;
     border-radius: 30px;
+    height: 300px;
 }
 #img2 {
     width: 500px;
     box-shadow: 5px 5px 5px grey;
     border-radius: 30px;
+    height: 300px;
 }
 #img3 {
     width: 500px;
@@ -203,6 +205,7 @@ input[type="Pending approval"] {
     width: 500px;
     box-shadow: 5px 5px 5px grey;
     border-radius: 30px;
+    height: 330px;
 }
 #img6 {
     width: 500px;
@@ -213,17 +216,19 @@ input[type="Pending approval"] {
     width: 500px;
     box-shadow: 5px 5px 5px grey;
     border-radius: 30px;
+    height: 300px;
 }
 #img8 {
     width: 500px;
     box-shadow: 5px 5px 5px grey;
     border-radius: 30px;
+    height: 310px;
 }
 #img9 {
     width: 500px;
     box-shadow: 5px 5px 5px grey;
     border-radius: 30px;
-    height: 200px;
+    height: 300px;
 }
 #img10 {
     width: 500px;
@@ -232,22 +237,22 @@ input[type="Pending approval"] {
 }
 .image1content {
     float: right;
-    color: green; 
-    font-size: larger; 
+    color: white; 
+    font-size: x-large; 
     font-family: sans-serif;
     margin-right: 200px;
 }
 .image2content {
     float: right;
-    color: green;
-    font-size: larger;
+    color: white;
+    font-size: x-large;
     margin-right: 400PX;
     font-family: sans-serif;
 }
 .image3content {
     float: right;
-    color: green;
-    font-size: larger; 
+    color: white;
+    font-size: x-large; 
     font-family: sans-serif;
     margin-right: 200px;
     
@@ -256,8 +261,8 @@ input[type="Pending approval"] {
 
 .image4content {
     float: right;
-    color: green;
-    font-size: larger; 
+    color: white;
+    font-size: x-large; 
     font-family: sans-serif;
     margin-right: 400px;
   
@@ -265,8 +270,8 @@ input[type="Pending approval"] {
 
 .image5content {
     float: right;
-    color: green; 
-    font-size: larger;
+    color: white; 
+    font-size: x-large;
     font-family: sans-serif; 
     margin-right: 200px;
     
@@ -274,8 +279,8 @@ input[type="Pending approval"] {
 
 .image6content {
     float: right;
-    color: green;
-    font-size: larger; 
+    color: white;
+    font-size: x-large; 
     font-family: sans-serif;
     margin-right: 400px;
     
@@ -283,8 +288,8 @@ input[type="Pending approval"] {
 
 .image7content {
     float: right;
-    color: green;
-    font-size: larger; 
+    color: white;
+    font-size: x-large; 
     font-family: sans-serif;
     margin-right: 200px;
     
@@ -292,8 +297,8 @@ input[type="Pending approval"] {
 
 .image8content {
     float: right;
-    color: green;
-    font-size: larger; 
+    color: white;
+    font-size: x-large; 
     font-family: sans-serif;
     margin-right: 400px;
     
@@ -301,8 +306,8 @@ input[type="Pending approval"] {
 
 .image9content {
     float: right;
-    color: green;
-    font-size: larger;
+    color: white;
+    font-size: x-large;
     font-family: sans-serif; 
     margin-right: 200px;
     
@@ -310,8 +315,8 @@ input[type="Pending approval"] {
 
 .image10content {
     float: right;
-    color: green;
-    font-size: larger; 
+    color: white;
+    font-size: x-large; 
     font-family: sans-serif;
     margin-right: 400px ;
   
