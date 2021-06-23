@@ -50,3 +50,16 @@ h1{
     padding: 20px ;
     background: darkgrey;
 }
+h1{
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 18px;                                        
+
+}
