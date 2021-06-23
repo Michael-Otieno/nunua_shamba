@@ -43,4 +43,14 @@ document.querySelector("button")
 .addEventListener("click",(event)=>{
   event.preventDefault();
   validateInput();
+});
+
+function onSuccess(input){
+
+  let parent=input.parentElement;
+  let messagesEle=parent.querySelector("small");
+  messagesEle.style.visibility="visible";
+  messagesEle.innerText=message;
+  parent.classlist.add("error");
+  parent.classlist.remove("success");
 }
