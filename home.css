@@ -54,6 +54,17 @@ button{ margin-left: 15px;
         font-weight:bolder;
         
 }
+.form-control.success input{
+        border: 3px solid blue;
+}
+.form-control.error input{
+        border: 3px solid brown;
+}
+small{
+        visibility: hidden;
+        position: absolute;
+        color: brown;
+}
 .container .header p{
         color: black;
         margin-left: -70px;
