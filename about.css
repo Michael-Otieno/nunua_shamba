@@ -93,3 +93,15 @@ tr td:first-child{
 tr td{
     padding-top: 20px;
 }
+
+.input-row input {
+    border-radius: 2rem;
+}
+
+.cpy {
+    font-size: larger;
+    text-align: center;
+}
+.pp1 {
+    padding: 20px;
+}
