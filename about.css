@@ -63,3 +63,23 @@ input{
     padding: 18px;                                        
 
 }
+textarea{
+    width: 85%;
+    border: 1px solid white;
+    outline: none;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+label{
+    margin-bottom: 2px;
+    display: block;
+    color: white;
+    width: 50px;
+    border: none;
+    outline: none;
+    color: black;
+    border-radius: 4px;
+    margin-top: 2px;
+    box-shadow: 0.9px
+}
