@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="catalogue.css">
+    <script src="catalogue.js"></script>
     <title>Catalogue</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
@@ -21,19 +22,19 @@
             <h2><strong>Post Land Details</strong></h2>
         </div>
         <div class="form">
-           <form>
+           <form method="POST"> 
                <div id="fillform"><h4><strong>Fill form</strong></h4></div>
                <label for="email">  Email</label>
-               <input class="pmail"  ctype="email" placeholder="Your email..." size="100">
+               <input class="pmail" id="pmail" ctype="email" placeholder="Your email..." size="100">
                <label for="Name"> Name</label>
-               <input class="pname" type="name" placeholder="Your name..." size="100">
+               <input class="pname" type="name" id="pname" placeholder="Your name..." size="100">
                <label for="National Id">ID</label>
-               <input class="pid"  type="national id" placeholder="National id..." size="100">
+               <input class="pid"  type="national id" placeholder="National id..." size="100" id="pid">
                <label for="title deed">Title</label>
-               <input class="ptitle" type="title deeed" placeholder="Title deed..." size="100">
+               <input class="ptitle" id="tdeed" type="title deeed" placeholder="Title deed..." size="100">
                <label  for="location">Location</label>
-               <input class="plocation"  type="location" placeholder=" Your location..." size="100">
-               <div id="submit"><input class="psubmit" type="submit" size="60"></div>
+               <input class="plocation" id="location"  type="location" placeholder=" Your location..." size="100">
+               <div id="submit"><input class="psubmit" onclick="return validate()" type="submit" size="60"></div>
         <div class="form2">
                 <div id="postland"><input class="ppost" id="postland" value="Post Land" type="submit"></div>
                 <div id="approval"><input class="papprove" id="approval" value="Pending Approval" type="submit"></div>
