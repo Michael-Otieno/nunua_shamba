@@ -1,0 +1,320 @@
+
+body {
+    margin: auto;
+}
+
+.nav {
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 0px;
+    height: 100px;
+    padding-top: 50px;
+    font-size: xx-large;
+} 
+.mainform{
+    width: 70%;
+    margin-left: 20%;
+}
+.form {
+    display: flex;
+    background-color: green;
+    width: 890px ;
+    align-content: space-between;
+    color: white;
+    font-size: x-large;
+}
+#fillform {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+#initial {
+    color: green;
+    font-size: x-large;
+}
+.form2 {
+    display: inline-block;
+    flex-direction: column;
+    background-color: green;
+    width: 0px;
+    
+    
+    
+}
+.pmail {
+    padding: 20px;
+    
+    
+}
+.pname {
+    padding: 20px;
+}
+.pid {
+    padding: 20px;
+}
+.ptitle {
+    padding: 20px;
+}
+.plocation {
+    padding: 20px;
+}
+.psubmit {
+    padding: 20px;
+}
+.ppost {
+    padding: 20px;
+}
+.papprove {
+    padding: 20px;
+}
+.heading {
+    color: white;
+    text-align: center;
+    
+    
+}
+input[type="text"] {
+
+    color: white;
+    padding: 20px, 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius: 3%;
+    font-size: larger;
+}
+input[type="Your email"]{
+    color: white;
+    padding: 12px, 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius: 3%;
+    font-size: larger;
+    text-align: center;
+}
+    
+
+input[type="Your location"] {
+    
+    color: white;
+    padding: 12px, 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius: 3%;
+    font-size: larger;
+}
+input[type="Natinal id"] {
+    color: white;
+    padding: 12px, 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius: 3%;
+    font-size: larger;
+}
+input[type="Title deed"] {
+    
+    color: white;
+    padding: 12px, 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius: 3%;
+    font-size: larger;
+}
+input[type="submit"] {
+    
+    color: black;
+    padding: 20px, 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius: 3%;
+    font-size: larger;
+}
+input[type="post lasnd"] {
+    
+    color: black;
+    padding: 12px, 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius: 3%;
+    font-size: x-large;
+}
+input[type="Pending approval"] {
+    
+    color: black;
+    padding: 12px, 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid green;
+    border-radius: 3%;
+    font-size: x-large;
+}
+.heading {
+    color: green;
+    font-size: x-large;
+}
+#img1 {
+    width: 500px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 30px;
+    height: 300px;
+}
+#img2 {
+    width: 500px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 30px;
+    height: 300px;
+}
+#img3 {
+    width: 500px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 30px;
+}
+#img4 {
+    width: 500px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 30px;
+}
+#img5 {
+    width: 500px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 30px;
+    height: 330px;
+}
+#img6 {
+    width: 500px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 30px;
+}
+#img7 {
+    width: 500px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 30px;
+    height: 300px;
+}
+#img8 {
+    width: 500px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 30px;
+    height: 310px;
+}
+#img9 {
+    width: 500px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 30px;
+    height: 300px;
+}
+#img10 {
+    width: 500px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 30px;
+}
+.image1content {
+    float: right;
+    color: black; 
+    font-size: x-large; 
+    font-family: sans-serif;
+    margin-right: 200px;
+}
+.image2content {
+    float: right;
+    color: black;
+    font-size: x-large;
+    margin-right: 400PX;
+    font-family: sans-serif;
+}
+.image3content {
+    float: right;
+    color: black;
+    font-size: x-large; 
+    font-family: sans-serif;
+    margin-right: 200px;
+    
+}
+    
+
+.image4content {
+    float: right;
+    color: black;
+    font-size: x-large; 
+    font-family: sans-serif;
+    margin-right: 400px;
+  
+}
+
+.image5content {
+    float: right;
+    color: black; 
+    font-size: x-large;
+    font-family: sans-serif; 
+    margin-right: 200px;
+    
+}
+
+.image6content {
+    float: right;
+    color: black;
+    font-size: x-large; 
+    font-family: sans-serif;
+    margin-right: 400px;
+    
+}
+
+.image7content {
+    float: right;
+    color: black;
+    font-size: x-large; 
+    font-family: sans-serif;
+    margin-right: 200px;
+    
+}
+
+.image8content {
+    float: right;
+    color: black;
+    font-size: x-large; 
+    font-family: sans-serif;
+    margin-right: 400px;
+    
+}
+
+.image9content {
+    float: right;
+    color: black;
+    font-size: x-large;
+    font-family: sans-serif; 
+    margin-right: 200px;
+    
+}
+
+.image10content {
+    float: right;
+    color: black;
+    font-size: x-large; 
+    font-family: sans-serif;
+    margin-right: 400px ;
+  
+}
+
+.combined12 {
+    display: flex; 
+}
+
+body {
+    background-color:greenyellow;
+}
