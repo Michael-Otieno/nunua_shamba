@@ -1,5 +1,10 @@
 # Nunua_shamba
 Our project was to a design website for selling and buying plots of land version @2021
+## List of Contributors
+ Michael Otieno
+ Laurette Mongina
+ Bernard Mukhenye
+ Eli Wangila
 
 ## Description
 The project solves struggles experienced when buying land. The project makes it easy for land sellers to access a larger market. 
