@@ -46,7 +46,7 @@ document.querySelector("button")
   event.preventDefault();
   validateInput();
 });
-
+// on success
 function onSuccess(input,input){
  let parent=input.parentElement;
  let messagesEle=parent.querySelector("small");
@@ -55,6 +55,7 @@ function onSuccess(input,input){
  parent.classList.add("success");
  parent.classList.remove("error");
 }
+// on error
 function onError(input,message){
   let parent=input.parentElement;
   let messagesEle=parent.querySelector("small");
