@@ -1,8 +1,8 @@
   let userName=document.getElementById("pdUserName");
-  let email=document.getElementsByClassName("pdEmail");
+  let email=document.getElementById("pdEmail");
   let identification=document.getElementById("pdID");
   let phone=document.getElementById("pdPhone");
-  let password=document.getElementsByClassName("pdPassword");
+  let password=document.getElementById("pdPassword");
   let form=document.querySelector("form");
   
 function validateInput(){
