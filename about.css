@@ -1,0 +1,131 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:
+}
+.about{
+    padding: 5px;
+    color: white;
+    text-align: left;
+    display: flex;
+}
+
+.inner{
+    width: px;
+    margin: auto;
+    overflow: hidden;
+    padding: 5;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    background: green;
+}
+.co1{
+    flex: 20%;
+    max-width: 20%;
+    box-sizing: content-box;
+    padding: 20px;
+}
+h1{
+    font-size: ;
+    color: green;
+}
+
+.container{
+    width: px;
+    margin: 10px;
+}
+.contact-box{
+    background: burlywood;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 50%;
+    padding: 20px ;
+}
+.contact-right{
+    flex-basis: 50%;
+    padding: 20px ;
+    background: darkgrey;
+}
+h1{
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 18px;                                        
+
+}
+textarea{
+    width: 85%;
+    border: 1px solid white;
+    outline: none;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+label{
+    margin-bottom: 2px;
+    display: block;
+    color: white;
+    width: 50px;
+    border: none;
+    outline: none;
+    color: black;
+    border-radius: 4px;
+    margin-top: 2px;
+    box-shadow: 0.9px
+}
+.contact-left h3{
+    color: #000;
+}
+tr td:first-child{
+    padding-right: 10px;
+
+}
+tr td{
+    padding-top: 20px;
+}
+
+.input-row input {
+    border-radius: 2rem;
+}
+
+.cpy {
+    font-size: larger;
+    text-align: center;
+}
+.pp1 {
+    padding: 20px;
+}
+
+button{
+    width: 50px;
+    height: 30px;
+    color: blue;
+    display: reverse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
