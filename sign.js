@@ -1,6 +1,6 @@
 let email2=document.getElementsByClassName("pdEmail2");
 let password2=document.getElementsByClassName("pdPassword2");
-let forms=document.querySelector("forms")
+let form=document.querySelector("forms")
 
 function validateInput(){
   console.log("validate input");}
@@ -24,7 +24,7 @@ function validateInput(){
   });
   
   function onSuccess(input,input){
-   let parent=input.parentElement;
+    let parent=input.parentElement;
    let messagesEle=parent.querySelector("small");
    messagesEle.style.visibility="hidden";
    messagesEle.innerText="";
