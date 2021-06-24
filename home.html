@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="home.css">
+  
+</head>
+<body>
+  <div class="main">
+     <div class="container">
+         <div class="header">
+           <h2>Sign Up</h2>
+           <P>Enter your personal details and start your journey with @NUNUA SHAMBA</P>
+         </div>
+         <!---Form for the sign-up-->
+         <!-- name -->
+        <form class="form">
+          <div class="form-control" >
+            <label for="username" name="username">username</label>
+            <input id="pdUserName" type="text" placeholder="User Name" name="username" />
+            <small>Error message</small>
+            </div>
+            <!-- id -->
+          <div class="form-control" >
+              <label for="Identification" name="Identification">ID</label>
+              <input id="pdId" type="number" placeholder="ID" name="Identification" />
+              <small>Error message</small>
+              </div>
+          <div class="form-control" >
+                <label for="email" name="email">Email</label>
+                <input id="pdEmail" type="email" placeholder="Email" name="email" />
+                <small>Error message</small>
+                </div>
+          <div class="form-control" >
+                  <label for="phone" name="phone">Phone</label>
+                  <input id="pdPhone" type="number" placeholder="Phone Number" name="phone" />
+                  <small>Error message</small>
+                  </div>
+          <div class="form-control" >
+                    <label for="password" name="password">Password</label>
+                    <input id="pdPassword"  type="password" placeholder="Password" name="password" />
+                    <small>Error message</small>
+                    </div>
+         <div class="form-control">
+        <button>Sign up</button>
+        <script src="home.js"></script> 
+        </div>
+     </form>
+    </div>
+
+   <div class="signin">
+      <div class="header">
+        <h2>Sign In</h2>
+      </div>
+      <!-- sign-in form-->
+      <form class="forms">
+        <div class="form-control">
+          <div class="form-control" >
+            <label for="email2" name="email2">Email</label>
+            <input id="pdEmail2" type="email2" placeholder="Email2" name="email2" />
+            <small>Error message</small>
+            </div>
+          <div class="form-control" >
+            <label for="password2" name="password2">Password</label>
+            <input id="pdPassword2"  type="password2" placeholder="Password" name="password2" />
+            <small>Error message</small>
+            </div>
+       <div class="form-control">
+         <button>Sign In</button><button>Forgot Password?</button></div>
+        </div>
+      </form>
+      <script src="sign.js"></script>
+  </div>
+</div>
+</body>
+</html>
